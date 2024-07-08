@@ -114,6 +114,20 @@ browserInfo = '1ddcS8t1orBzkaklajVhFUY5nl)2AVnT66wlRr2CPHZZBE5swQzERQwqVS2GIZO15
 browserInfo = loads(infos[2])
 
 browserInfo = 'my browser information'
+swagger_types = {
+        "browser_info": "BrowserInfo",
+        "device": "Device",
+        "email": "str",
+        "home_phone": "str",
+        "id": "str",
+        "identity": "str",
+        "ip": "str",
+        "ip_country": "str",
+        "locale": "str",
+        "phone": "str",
+        "user_agent": "str",
+        "work_phone": "str",
+    }
 
 
 account_Info = "abscde"
