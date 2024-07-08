@@ -16,6 +16,8 @@ public static class Device_info {
 	
         public String LTE_ID = "NONE";
         public char LTE_conn;
+
+        public char LTE_conn;
         public String LTE_loc = "NONE";
         public String LTE_MAC = "NONE";
     }
