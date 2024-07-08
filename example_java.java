@@ -12,7 +12,7 @@ public static class Device_info {
         public char Wifi_conn;
         public String Wifi_loc = "NONE";
         public String Wifi_MAC = "NONE";
-
+       // "Hi"
         public String LTE_IP = "NONE";
         public String LTE_ID = "NONE";
         public char LTE_conn;
