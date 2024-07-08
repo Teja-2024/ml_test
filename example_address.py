@@ -26,6 +26,9 @@ billingAddress_URL = [
     path('shipping/address/',ShippingAddressView.as_view()),
     path('billng/address/delete/<int:pk>/', BillingAddressDeleteView.as_view())]
 
+
+
+
 billing_address = AddressModel.retrieve_user_shipping_address_by_id(user_id)
 billingAddress1 = models.CharField(max_length = 250, blank = True)
 billingName = models.CharField(max_length=250, blank=True)
