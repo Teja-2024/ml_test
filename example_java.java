@@ -45,21 +45,21 @@ public class Refresh_device_info
 
 	private static String RefreshDeviceInfo(String deviceID) throws Exception
 	{
-		/* Api to apply dynamic jobs
-		Endpoint: /dynamicjob
-		  Method: POST
-		  Request Body:
-		     {
-		         "JobType":string,
-		         "DeviceID":string
-		     }
-		  Authentication:
-		      Basic authentication
-		  Headers:
-		      ApiKey: �Your Api-Key�
-		*/
+		// /* Api to apply dynamic jobs
+		// Endpoint: /dynamicjob
+		//   Method: POST
+		//   Request Body:
+		//      {
+		//          "JobType":string,
+		//          "DeviceID":string
+		//      }
+		//   Authentication:
+		//       Basic authentication
+		//   Headers:
+		//       ApiKey: �Your Api-Key�
+		// */
 
-		// ... API URL
+		// // ... API URL
 		String URL = baseurl + "/dynamicjob";
 		// ... PayLoad data
 		JSONObject PayLoad = new JSONObject();
