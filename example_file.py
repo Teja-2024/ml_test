@@ -30,6 +30,11 @@ zipcode = models.CharField(max_length=225, null=True, blank=True)
 date_added = models.DateTimeField(default=timezone.now)
 is_no_billing_address = models.BooleanField(default=False)
 
+
+
+
+
+
 public static IAmount merchantAccount(String account) {
     IBuilder billingAddress(Address address);
     IBuilder shopperDateOfBirth(Date dateOfBirth);
