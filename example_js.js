@@ -98,20 +98,5 @@ try {
 } catch (e) {
     // vatMoss.errors.ValueError - One of the user input values is empty or not a string
 }
-```
-	```js
-try {
-    // Values from payment provider
-    var countryCode = 'US';
-    var postalCode = '01950';
-    var city = 'Newburyport';
 
-    var result = vatMoss.billingAddress.calculateRate(countryCode, postalCode, city);
-
-    // Combine with other rate detection and then show user tax rate/amount
-
-} catch (e) {
-    // vatMoss.errors.ValueError - One of the user input values is empty or not a string
-}
-```
 customer_purchase_info <- read_csv("customer_purchase_info.csv", show_col_types = FALSE)
